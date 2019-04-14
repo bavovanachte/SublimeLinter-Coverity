@@ -3,8 +3,10 @@ from SublimeLinter.lint import Linter  # or NodeLinter, PythonLinter, ComposerLi
 
 class __class__(Linter):
     cmd = '__cmd__'
-    regex = r''
-    multiline = False
+    regex = (
+        r'^[^<>:;,?\"*|\s]+:+(?P<line>\d+):+\s*CID\s*\d*'
+    )
+    multiline = True
     defaults = {
-        'selector': 'source.python'
+        'selector': 'source.c, source.h',
     }
