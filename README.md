@@ -3,7 +3,7 @@ SublimeLinter-contrib-coverity
 
 [![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-coverity.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-coverity)
 
-This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) provides an interface to [coverity](https://scan.coverity.com/). It will be used with files that have the “__syntax__” syntax.
+This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) provides an interface to [coverity](https://scan.coverity.com/). It will be used with files that have the “coverity” syntax.
 
 ## Installation
 SublimeLinter must be installed in order to use this plugin. 
